@@ -14,6 +14,7 @@ digraph g {
  traditional_surveyor [
   width=4
   label="Traditional Surveyor"
+  color=red
  ]
  you [
   width=4
@@ -47,7 +48,7 @@ digraph g {
  surveying_decision -> traditional_surveyor;
  surveying_decision -> diy_survey;
 
- traditional_surveyor->inkscape [ label = "PDF"; ];
+ traditional_surveyor->inkscape [ label = "PDF"; color="red" ];
  traditional_surveyor->closed_source_tool [ label = "DWG"; style="dashed"; ];
  closed_source_tool->blender [ label = "Export"; style="dashed"; ];
  pointcloud_surveyor->blender_pointcloud_processing [ label = "Point cloud data"; ];
@@ -55,6 +56,6 @@ digraph g {
 
  blender_pointcloud_processing->blender [ label = "Blender terrain model"; ];
  open_source_photogrammetry->blender_pointcloud_processing;
- inkscape->blender [ label = "SVG"; ];
+ inkscape->blender [ label = "SVG"; color="red" ];
  
 }
