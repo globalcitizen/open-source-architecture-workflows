@@ -45,4 +45,21 @@ Now you are going to zoom in and start to trace the data provided by the surveyo
 
 ![image](inkscape-3-bezier-tool.jpg)
 
-Now zoom in to the 
+Now zoom in to the image so that you can see clearly one single area described by the surveyor as a whole vector shape. For example, the top left corner of your survey. The view should look something like this.
+
+![image](tutorial-zoomed-in.jpg)
+
+You should then draw the bezier out, noting Inkscape's ability to snap accurately to the PDF contents, and wind up with a fully enclosed shape like this.
+![image](tutorial-drawn-path.jpg)
+
+Zoomed in further, the shape now looks like this.
+
+![image](tutorial-drawn-path-only.jpg)
+
+Press __Ctrl+Shift+F__ or select the __Fill and Stroke__ panel, then set the fill to black and the stroke to X (none). The shape should now look like this.
+
+![image](tutorial-drawn-path-only-solid.jpg)
+
+We now want to set the properties of the object to store the height as indicated by the surveyor, using the __Object Properties__ panel (__Shift+Ctrl+O__). This text will be visible and associated with the object when we import the SVG we create from the PDF in Inkscape in to our target Blender scene.
+
+![image](tutorial-path-object-properties.jpg)
