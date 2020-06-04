@@ -33,10 +33,16 @@ First, open the PDF file in Blender. You will get an import dialog like this.
 
 Import the file, then press __Ctrl+Shift+L__ to show the layers palette, or select __Layer|Layers...__ from the menu.
 
-Now set the existing PDF contents layer's name to "Source" and lock it by clicking the open padlock icon. Then press the plus icon to make a new layer, named "Terrain". Select the "Terrain" layer. Your layers should now look like this.
+Now set the existing PDF contents layer's name to "Source" and lock it by clicking the open padlock icon. Change its opacity to 30% to facilitate tracing.  You should see it lighten a little bit. 
 
-![image](inkscape-2-layers.jpg)
+![image](inkscape-2a-layers.jpg)
+
+Then press the plus icon to make a new layer, named "Terrain". Select the "Terrain" layer. Your layers should now look like this.
+
+![image](inkscape-2b-layers.jpg)
 
 Now you are going to zoom in and start to trace the data provided by the surveyor, while normalizing it to useful closed vector shapes and noting the associated heights. To begin, select the Bezier drawing tool with __Shift+F6__ or by clicking the icon.
 
 ![image](inkscape-3-bezier-tool.jpg)
+
+Now zoom in to the 
