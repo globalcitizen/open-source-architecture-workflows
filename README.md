@@ -104,3 +104,10 @@ Once it is configured with your site coordinates and true north offset (availabl
 Here is an example screenshot.
 
 ![image](tutorial-shadows-example-screenshot.jpg)
+
+
+## Construction related CNC fabrication work
+
+There are definitely a lot of open source programs capable of producing output for CNC systems which are used to prepare materials for construction, including but not limited to timber, metal, plastic and glass. In practice, however, normally these systems are owned by a third party supplier and specifications are sent to them as drawings, after which they re-digitize the drawings as files for their CNC systems.
+
+Low hanging fruit for CNC are things like sheet metal cutting (usually done with fiber lasers), wooden sheet cutting, timber and metal beam cutting, hole drilling and thread tapping. Classic examples would be windows, CNC cut benchtops, laser cut privacy screens, stairs, aluminium window modules and roller shutter units.
