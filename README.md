@@ -100,3 +100,7 @@ With a little more work you can add trees, nearby features and so forth, then ha
 Blender is ideal for shadow models. Once you have your structure and terrain in to Blender, install the __Lighting: Sun Position__ add-on.
 
 Once it is configured with your site coordinates and true north offset (available either on the survey or via mobile phone applications), you can then use time of year and time of day modification controls to set up screenshots of the top orthographic view. Paste these in to Inkscape and trace significant features such as major shadow lines. You can do this multiple times with different features excluded from the scene to create very accurate shadow models to greatly exceed the expectations of local regulators who are used to simplistic output from commercial modeling tools. For example, in order to show the minimum impact of a built environment change, you might indicate shadows cast by existing foliage or fences separately.
+
+Here is an example screenshot.
+
+![image](tutorial-shadows-example-screenshot.jpg)
