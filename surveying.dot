@@ -54,7 +54,7 @@ digraph g {
  diy_survey->open_source_photogrammetry [ label = "Video/images+GPS"; ];
 
  blender_pointcloud_processing->blender [ label = "Blender terrain model"; ];
- open_source_photogrammetry->blender;
+ open_source_photogrammetry->blender_pointcloud_processing;
  inkscape->blender [ label = "SVG"; ];
  
 }
