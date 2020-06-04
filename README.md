@@ -86,3 +86,10 @@ Now you simply need to scale each vector to the appropriate height. The fast way
 
 Then select the vector shape in question, press tab to toggle to the edit mode, press A to select all vertices on the vector shape, execute your extrusion using the keyboard (S+Z+(number-of-meters-above-sea-level-less-the-height-of-your-vertical-origin-point)+enter) (eg. 145-140=5, so S+Z+5+ENTER), exit edit mode back to object mode with tab, select the next vector and repeat. You can cover a large number of vectors quite quickly this way. 
 
+In the end you will have a reasonably detailed model, potentially better than the original survey as you have considered the errors and omissions within it and resolve them during your vector cleanup.
+
+![image](tutorial-result-simple.jpg)
+
+With a little more work you can add trees, nearby features and so forth, then have a good basis for moving forward on any conceptual design or renovations.
+
+![image](tutorial-result-trees.jpg)
