@@ -93,3 +93,10 @@ In the end you will have a reasonably detailed model, potentially better than th
 With a little more work you can add trees, nearby features and so forth, then have a good basis for moving forward on any conceptual design or renovations.
 
 ![image](tutorial-result-trees.jpg)
+
+
+## Shadow modeling
+
+Blender is ideal for shadow models. Once you have your structure and terrain in to Blender, install the __Lighting: Sun Position__ add-on.
+
+Once it is configured with your site coordinates and true north offset (available either on the survey or via mobile phone applications), you can then use time of year and time of day modification controls screenshots of the top orthographic view to create very accurate shadow models to greatly exceed the expectations of local regulators who are used to simplistic output from commercial modeling tools.
