@@ -1,0 +1,60 @@
+digraph g {
+ rankdir=TB;
+ surveying_decision [
+  label="Decide what kind of survey you need"
+ ]
+ diy_survey [
+  width=4
+  label="DIY Survey (eg. drone or phone movie)"
+ ]
+ pointcloud_surveyor [
+  width=4
+  label="Pointcloud Surveyor"
+ ]
+ traditional_surveyor [
+  width=4
+  label="Traditional Surveyor"
+ ]
+ you [
+  width=4
+  label="You"
+ ]
+ inkscape [
+  width=4
+  label="Inkscape"
+ ]
+ blender_pointcloud_processing [
+  width=4
+  label="Blender pointcloud processing"
+ ]
+ blender [
+  width=4
+  label="Blender"
+ ]
+ closed_source_tool [
+  width=4
+  label="Closed source tool (eg. revit)"
+  style="dashed"
+ ]
+ open_source_photogrammetry [
+  width=4
+  label="Open source photogrammetry"
+ ]
+
+ you -> surveying_decision;
+
+ surveying_decision -> pointcloud_surveyor;
+ surveying_decision -> traditional_surveyor;
+ surveying_decision -> diy_survey;
+
+ traditional_surveyor->inkscape [ label = "PDF"; ];
+ traditional_surveyor->closed_source_tool [ label = "DWG"; style="dashed"; ];
+ closed_source_tool->blender [ label = "Export"; style="dashed"; ];
+ pointcloud_surveyor->blender_pointcloud_processing [ label = "Point cloud data"; ];
+ diy_survey->open_source_photogrammetry [ label = "Video/images+GPS"; ];
+
+ blender_pointcloud_processing->blender [ label = "Blender terrain model"; ];
+ open_source_photogrammetry->blender;
+ inkscape->blender [ label = "SVG"; ];
+ 
+}
