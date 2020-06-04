@@ -69,3 +69,18 @@ Repeat the process to include all terrain heights as fully enclosed vectors, sto
 First, ensure that you have the __Import-Export: Scalable Vector Graphics (SVG) 1.1 Format__ add-on enabled in __Blender Preferences__' __Add-ons__ section.
 
 ![image](tutorial-blender-svg-addon.jpg)
+
+Now select __File|Import|Scalable Vector Graphics__.
+
+![image](tutorial-blender-import.jpg)
+
+After importing you should see the height text associated with each terrain object in the __Scene Collection__ view.
+
+![image](tutorial-blender-imported.jpg)
+
+The overall drawing should be visible in the main view.
+
+![image](tutorial-blender-imported-2.jpg)
+
+Now you simply need to scale each vector to the appropriate height. The fast way to do this is to determine the vertical point (meters above sea level) that you want to model as zero, then select the vector in question, press tab to toggle to the edit mode, execute your extrusion using the keyboard (S+Z+<number-of-meters>+enter), exit with tab, select the next vector and repeat. You can cover a large number of vectors quite quickly this way.
+
