@@ -60,7 +60,7 @@ Press __Ctrl+Shift+F__ or select the __Fill and Stroke__ panel, then set the fil
 
 ![image](tutorial-drawn-path-only-solid.jpg)
 
-We now want to set the properties of the object to store the height as indicated by the surveyor, using the __Object Properties__ panel (__Shift+Ctrl+O__). This text will be visible and associated with the object when we import the SVG we create from the PDF in Inkscape in to our target Blender scene.
+We now want to set the properties of the object to store the height as indicated by the surveyor, using the __Object Properties__ panel (__Shift+Ctrl+O__). The ID field text will be visible and associated with the object when we import the SVG we create from the PDF in Inkscape in to our target Blender scene, so we want to set it to the number of meters above sea level, eg. '145'. If you have more than one object with the same height, just call it '145 (unique string here)' like '145 iaousdiau' or '145 bottom of garden' to maintain the uniqueness restraint.
 
 ![image](tutorial-path-object-properties.jpg)
 
