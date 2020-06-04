@@ -42,14 +42,14 @@
 <!-- traditional_surveyor -->
 <g id="node4" class="node">
 <title>traditional_surveyor</title>
-<ellipse fill="none" stroke="red" cx="577" cy="-190" rx="144" ry="18"/>
+<ellipse fill="none" stroke="green" cx="577" cy="-190" rx="144" ry="18"/>
 <text text-anchor="middle" x="577" y="-185.8" font-family="Times,serif" font-size="14.00">Traditional Surveyor</text>
 </g>
 <!-- surveying_decision&#45;&gt;traditional_surveyor -->
 <g id="edge3" class="edge">
 <title>surveying_decision&#45;&gt;traditional_surveyor</title>
-<path fill="none" stroke="black" d="M439.72,-353.44C474.37,-335.6 525.99,-304.01 556,-262 565.17,-249.16 570.37,-232.32 573.31,-218.26"/>
-<polygon fill="black" stroke="black" points="576.8,-218.62 575.14,-208.16 569.91,-217.38 576.8,-218.62"/>
+<path fill="none" stroke="green" d="M439.72,-353.44C474.37,-335.6 525.99,-304.01 556,-262 565.17,-249.16 570.37,-232.32 573.31,-218.26"/>
+<polygon fill="green" stroke="green" points="576.8,-218.62 575.14,-208.16 569.91,-217.38 576.8,-218.62"/>
 </g>
 <!-- open_source_photogrammetry -->
 <g id="node10" class="node">
@@ -80,14 +80,14 @@
 <!-- inkscape -->
 <g id="node6" class="node">
 <title>inkscape</title>
-<ellipse fill="none" stroke="black" cx="533" cy="-104" rx="144" ry="18"/>
+<ellipse fill="none" stroke="green" cx="533" cy="-104" rx="144" ry="18"/>
 <text text-anchor="middle" x="533" y="-99.8" font-family="Times,serif" font-size="14.00">Inkscape</text>
 </g>
 <!-- traditional_surveyor&#45;&gt;inkscape -->
 <g id="edge5" class="edge">
 <title>traditional_surveyor&#45;&gt;inkscape</title>
-<path fill="none" stroke="red" d="M568.1,-172C561.95,-160.27 553.67,-144.46 546.69,-131.14"/>
-<polygon fill="red" stroke="red" points="549.63,-129.21 541.89,-121.97 543.43,-132.46 549.63,-129.21"/>
+<path fill="none" stroke="green" d="M568.1,-172C561.95,-160.27 553.67,-144.46 546.69,-131.14"/>
+<polygon fill="green" stroke="green" points="549.63,-129.21 541.89,-121.97 543.43,-132.46 549.63,-129.21"/>
 <text text-anchor="middle" x="569.84" y="-142.8" font-family="Times,serif" font-size="14.00">PDF</text>
 </g>
 <!-- closed_source_tool -->
@@ -124,8 +124,8 @@
 <!-- inkscape&#45;&gt;blender -->
 <g id="edge12" class="edge">
 <title>inkscape&#45;&gt;blender</title>
-<path fill="none" stroke="red" d="M533,-85.6C533,-74.26 533,-59.23 533,-46.32"/>
-<polygon fill="red" stroke="red" points="536.5,-46.1 533,-36.1 529.5,-46.1 536.5,-46.1"/>
+<path fill="none" stroke="green" d="M533,-85.6C533,-74.26 533,-59.23 533,-46.32"/>
+<polygon fill="green" stroke="green" points="536.5,-46.1 533,-36.1 529.5,-46.1 536.5,-46.1"/>
 <text text-anchor="middle" x="547" y="-56.8" font-family="Times,serif" font-size="14.00">SVG</text>
 </g>
 <!-- blender_pointcloud_processing&#45;&gt;blender -->
