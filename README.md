@@ -1,6 +1,11 @@
 # Open Source Architecture Workflows
 
-Notes on open source workflows within the architecture/building/construction industry
+Notes on open source workflows within the architecture/building/construction industry.
+
+## Software
+
+ * [Blender]() open source cross-platform 3D modeling and animation program
+ * [Inkscape]() open source cross-platform vector editing program with SVG as its native format
 
 ## Surveying
 
@@ -17,3 +22,19 @@ All surveys may be complicated by certain types of features (eg. dense foliage).
 Finally, you may not need a survey at all. Satellite images can be obtained online for free, and existing site plans can often be obtained from local governments, which increasingly have GIS systems or web GIS portals for this purpose.
 
 ![image](surveying.svg)
+
+#### Tested process: Traditional surveyor PDF to Blender via Inkscape/SVG
+
+To convert a vector PDF from a traditional surveyor to an SVG file that can be imported to Blender without losing any data, you can use the following manual process. Once you have the hang of it, it's not too slow, and gives you the benefit of the freedom to resolve issues with the supplied vector data in an appropriate environment before importing to Blender.
+
+First, open the PDF file in Blender. You will get an import dialog like this.
+
+![image](inkscape-1-pdf-import.jpg)
+
+Import the file, then press Ctrl+Shift+L to show the layers palette, or select Layer|Layers... from the menu.
+
+Now set the existing PDF contents layer's name to 'Source' and lock it by clicking the open padlock icon. Then press the plus icon to make a new layer, named 'Terrain'. Your layers should now look like this.
+
+![image](inkscape-2-layers.jpg)
+
+
