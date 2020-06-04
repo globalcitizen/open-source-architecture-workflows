@@ -84,5 +84,5 @@ The overall drawing should be visible in the main view.
 
 Now you simply need to scale each vector to the appropriate height. The fast way to do this is to first determine the vertical point (meters above sea level) that you want to model as zero. For example if most of your heights range from 140-160 meters above sea level then you might choose 140 meters above sea level as your vertical zero point.
 
-Then select the vector in question, press tab to toggle to the edit mode, execute your extrusion using the keyboard (S+Z+(number-of-meters-above-sea-level-less-the-height-of-your-vertical-origin-point)+enter) (eg. 145-140=5, so S+Z+5+ENTER), exit edit mode back to object mode with tab, select the next vector and repeat. You can cover a large number of vectors quite quickly this way. 
+Then select the vector shape in question, press tab to toggle to the edit mode, press A to select all vertices on the vector shape, execute your extrusion using the keyboard (S+Z+(number-of-meters-above-sea-level-less-the-height-of-your-vertical-origin-point)+enter) (eg. 145-140=5, so S+Z+5+ENTER), exit edit mode back to object mode with tab, select the next vector and repeat. You can cover a large number of vectors quite quickly this way. 
 
