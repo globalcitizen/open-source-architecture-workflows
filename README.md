@@ -63,3 +63,9 @@ Press __Ctrl+Shift+F__ or select the __Fill and Stroke__ panel, then set the fil
 We now want to set the properties of the object to store the height as indicated by the surveyor, using the __Object Properties__ panel (__Shift+Ctrl+O__). This text will be visible and associated with the object when we import the SVG we create from the PDF in Inkscape in to our target Blender scene.
 
 ![image](tutorial-path-object-properties.jpg)
+
+Repeat the process to include all terrain heights as fully enclosed vectors, store the SVG, and import in to Blender as follows.
+
+First, ensure that you have the __Import-Export: Scalable Vector Graphics (SVG) 1.1 Format__ add-on enabled in __Blender Preferences__' __Add-ons__ section.
+
+![image](tutorial-blender-svg-addon.jpg)
