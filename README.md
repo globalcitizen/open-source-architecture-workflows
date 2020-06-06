@@ -115,4 +115,4 @@ Low hanging fruit for CNC are things like sheet metal cutting (usually done with
 
 ## Structural and Thermal Analysis
 
-See [learning material for Code Aster and Salome Meca](https://wiki.osarch.org/index.php?title=Learning_Material_for_Code_Aster_and_Salome_Meca). Optionally [pay a consultancy to set it up for you](https://simulease.com/).
+See [learning material for Code Aster and Salome Meca](https://wiki.osarch.org/index.php?title=Learning_Material_for_Code_Aster_and_Salome_Meca). Optionally pay one of these consultancies to set it up for you: [simulease](https://simulease.com/), [deltacad code aster services](http://www.code-aster-services.com/).
