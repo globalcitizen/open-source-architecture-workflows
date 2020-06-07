@@ -115,4 +115,8 @@ Low hanging fruit for CNC are things like sheet metal cutting (usually done with
 
 ## Structural and Thermal Analysis
 
-See [learning material for Code Aster and Salome Meca](https://wiki.osarch.org/index.php?title=Learning_Material_for_Code_Aster_and_Salome_Meca). Optionally pay one of these consultancies to set it up for you: [simulease](https://simulease.com/), [deltacad code aster services](http://www.code-aster-services.com/).
+There is a [osarch meeting with a video demo](https://peertube.social/videos/watch/e93aaf55-b987-4769-8bac-b57f174e7ccc) showing how to use salome meca to perform structural modeling, eg. for earthquake simulation.
+
+To learn yourself, see [learning material for Code Aster and Salome Meca](https://wiki.osarch.org/index.php?title=Learning_Material_for_Code_Aster_and_Salome_Meca).
+
+Alternatively or in addition, you can consider paying one of these consultancies to set it up for you: [simulease](https://simulease.com/), [deltacad code aster services](http://www.code-aster-services.com/).
