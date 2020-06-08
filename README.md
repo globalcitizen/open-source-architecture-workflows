@@ -18,6 +18,9 @@ Notes on open source workflows within the architecture/building/construction ind
  * [Inkscape](http://www.inkscape.org/) open source cross-platform vector editing program with SVG as its native format
  * [Open Drone Map](https://www.opendronemap.org/) open source point cloud generation from images or video
  * [OpenSFM](https://github.com/mapillary/OpenSfM/) open source structure from motion - ie. precise camera-position-over-time generation from images or video (can also support GPS feed)
+ * [Meshlab](https://www.meshlab.net/) open source system for processing and editing 3D triangular meshes.
+It provides a set of tools for editing, cleaning, healing, inspecting, rendering, texturing and converting meshes. It offers features for processing raw data produced by 3D digitization tools/devices and for preparing models for 3D printing.
+ * [Point Cloud Library](https://pointclouds.org/) standalone, large scale, open project for 2D/3D image and point cloud processing
 
 ## Surveying
 
