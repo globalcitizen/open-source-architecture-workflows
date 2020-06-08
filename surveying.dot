@@ -5,7 +5,7 @@ digraph g {
  ]
  diy_survey [
   width=4
-  label="DIY Survey (eg. drone or phone movie)"
+  label="DIY Survey (eg. drone, camera or phone images/movie)"
  ]
  pointcloud_surveyor [
   width=4
@@ -27,9 +27,9 @@ digraph g {
   fontcolor=green
   color=green
  ]
- blender_pointcloud_processing [
+ open_source_point_cloud_postprocessing [
   width=4
-  label="Blender pointcloud processing"
+  label="Open source point cloud postprocessing\r\n(meshlab/point cloud library)"
  ]
  blender [
   width=4
@@ -44,7 +44,11 @@ digraph g {
  ]
  open_source_photogrammetry [
   width=4
-  label="Open source photogrammetry"
+  label="Opendronemap (uses OpenSfM)"
+ ]
+ blender_terrain_import [
+  width=4
+  label="Blender terrain import"
  ]
 
  you -> surveying_decision;
@@ -56,11 +60,12 @@ digraph g {
  traditional_surveyor->inkscape [ label = "PDF"; fontcolor="green"; color="green" ];
  traditional_surveyor->closed_source_tool [ label = "DWG"; style="dashed"; ];
  closed_source_tool->blender [ label = "Export"; style="dashed"; ];
- pointcloud_surveyor->blender_pointcloud_processing [ label = "Point cloud data"; ];
+ pointcloud_surveyor->open_source_point_cloud_postprocessing [ label = "Point cloud data"; ];
  diy_survey->open_source_photogrammetry [ label = "Video/images+GPS"; ];
 
- blender_pointcloud_processing->blender [ label = "Blender terrain model"; ];
- open_source_photogrammetry->blender_pointcloud_processing;
+ blender_terrain_import->blender [ label = "Blender terrain model"; ];
+ open_source_photogrammetry->open_source_point_cloud_postprocessing [ label = "Point cloud"; ];
+ open_source_point_cloud_postprocessing->blender_terrain_import [ label = "Triangular terrain mesh"; ];
  inkscape->blender [ label = "SVG"; fontcolor="green"; color="green" ];
  
 }

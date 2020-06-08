@@ -108,15 +108,13 @@ With a little more work you can add trees, nearby features and so forth, then ha
 
 ### Untested process: OpenDroneMap Point Cloud Survey
 
-First get a drone or a camera ready to take numerous photographs. 
-
-Next, read [DJI's guide to making successful maps](https://support.dronedeploy.com/docs/making-successful-maps).
+First get a drone or a camera (or smartphone) ready to take numerous photographs or video. The benefit of a drone is you can get more angles, higher angles, and move more quickly. The drawback is you have to own one, and there are legal issues flying them in many places. As with any photography, you should worry about lighting: choose a light but cloudy day without harsh shadows if available.  Next, read [DJI's guide to making successful maps](https://support.dronedeploy.com/docs/making-successful-maps).
 
 You can use either [command line ODM](https://www.opendronemap.org/odm/), [webODM](https://www.opendronemap.org/webodm/), or [LiveODM](https://www.opendronemap.org/liveodm/) to do the processing.
 
-When you fly, you may consider using [ground control points](https://github.com/mapillary/OpenSfM/blob/master/doc/source/gcp.rst) (GCP). If you do this, webODM provides a workflow for inputting the GCPs whereas command line ODM does not, so you may be better off going with webODM, despite it being newer and less polished.
+When you fly (or walk with a smartphone!), you may consider using [ground control points](https://github.com/mapillary/OpenSfM/blob/master/doc/source/gcp.rst) (GCP). If you do this, webODM provides a workflow for inputting the GCPs whereas command line ODM does not, so you may be better off going with webODM, despite it being newer and less polished.
 
-Finally you should be able to import the results to Blender.
+Finally you should be able to import the results to Blender, possibly via [Meshlab](https://www.meshlab.net/) for post-processing and [Point Cloud Library](https://pointclouds.org/).
 
 
 ## Shadow modeling
