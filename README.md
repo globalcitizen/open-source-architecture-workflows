@@ -16,6 +16,8 @@ Notes on open source workflows within the architecture/building/construction ind
 
  * [Blender](http://www.blender.org/) open source cross-platform 3D modeling and animation program
  * [Inkscape](http://www.inkscape.org/) open source cross-platform vector editing program with SVG as its native format
+ * [Open Drone Map](https://www.opendronemap.org/) open source point cloud generation from images or video
+ * [OpenSFM](https://github.com/mapillary/OpenSfM/) open source structure from motion - ie. precise camera-position-over-time generation from images or video (can also support GPS feed)
 
 ## Surveying
 
