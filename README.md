@@ -2,10 +2,20 @@
 
 Notes on open source workflows within the architecture/building/construction industry.
 
+## Contents
+
+ * Software
+ * Surveying
+   * Tested process: Traditional surveyor PDF to Blender via Inkscape/SVG
+   * Untested process: Opendronemap point cloud survey
+ * Shadow modeling
+ * Construction related CNC fabrication work
+ * Structural and thermal analysis
+
 ## Software
 
- * [Blender]() open source cross-platform 3D modeling and animation program
- * [Inkscape]() open source cross-platform vector editing program with SVG as its native format
+ * [Blender](http://www.blender.org/) open source cross-platform 3D modeling and animation program
+ * [Inkscape](http://www.inkscape.org/) open source cross-platform vector editing program with SVG as its native format
 
 ## Surveying
 
@@ -93,6 +103,18 @@ In the end you will have a reasonably detailed model, potentially better than th
 With a little more work you can add trees, nearby features and so forth, then have a good basis for moving forward on any conceptual design or renovations.
 
 ![image](tutorial-result-trees.jpg)
+
+### Untested process: OpenDroneMap Point Cloud Survey
+
+First get a drone or a camera ready to take numerous photographs. 
+
+Next, read [DJI's guide to making successful maps](https://support.dronedeploy.com/docs/making-successful-maps).
+
+You can use either [command line ODM](https://www.opendronemap.org/odm/), [webODM](https://www.opendronemap.org/webodm/), or [LiveODM](https://www.opendronemap.org/liveodm/) to do the processing.
+
+When you fly, you may consider using [ground control points](https://github.com/mapillary/OpenSfM/blob/master/doc/source/gcp.rst) (GCP). If you do this, webODM provides a workflow for inputting the GCPs whereas command line ODM does not, so you may be better off going with webODM, despite it being newer and less polished.
+
+Finally you should be able to import the results to Blender.
 
 
 ## Shadow modeling
